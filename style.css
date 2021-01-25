@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.center {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15rem auto;
+}
+
+.google__logo {
+  width: 250px;
+  margin: 2rem auto;
+  justify-self: center;
+}
+
+input, .btn--group {
+  width: 100%;
+}
+
+input {
+  padding: .5rem 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  border: .1rem solid rgba(0, 0, 0, 0.336);
+  outline: none;
+}
+
+.btn--group {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.7rem;
+  padding: .9rem 2rem;
+  background: rgba(240, 239, 239, 0.541);
+  border: none;
+  outline: none;
+  border-radius: .5rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
